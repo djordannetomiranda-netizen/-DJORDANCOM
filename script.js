@@ -1,0 +1,1 @@
+new QRCode(document.getElementById("qrcode"),location.href);async function sharePage(){if(navigator.share){navigator.share({title:document.title,url:location.href})}else copyLink()}function copyLink(){navigator.clipboard.writeText(location.href);alert("Link copiado!")}
